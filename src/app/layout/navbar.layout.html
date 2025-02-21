@@ -1,0 +1,21 @@
+<nav class="fixed top-0 left-0 right-0 bg-blue-400 shadow-lg w-lg m-auto ">
+    <div class="flex justify-around p-4 h-15">
+        <h1 class="rounded-2xl  text-2xl"> Mike shop</h1>
+        
+        
+
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<nav class="fixed bottom-0 left-0 right-0  shadow-lg  w-lg m-auto ">
+    <div  class="flex justify-around p-4 h-15 bg-blue-400 ">
+      <button  pButton icon="pi pi-home"  size="large" [rounded]="true" [text]="true"  (click)="onclickHome()" ></button>
+      <i class="fa-solid fa-house"></i>
+      <button pButton iicon="pi pi-trash" size="large" [rounded]="true" [text]="true" (click)="onClickTodo()" ></button>
+      <button pButton  icon="pi pi-user" size="large" [rounded]="true" [text]="true"  ></button>
+      <button pButton  icon="pi pi-sign-in" size="large" [rounded]="true" [text]="true"   ></button>
+     
+    </div>
+  </nav>
